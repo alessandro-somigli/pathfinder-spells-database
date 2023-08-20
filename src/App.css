@@ -22,6 +22,9 @@
   color: red;
   font-size: 1.4rem;
   font-weight: 600;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* scroll & info buttons */

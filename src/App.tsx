@@ -7,9 +7,9 @@ import InfoButton from './InfoButton'
 import InfoPage from './InfoPage'
 
 const config = {
-  host: import.meta.env.VITE_DB_HOST,
-  username: import.meta.env.VITE_DB_USERNAME,
-  password: import.meta.env.VITE_DB_PASSWORD
+  host: process.env.VITE_DB_HOST,
+  username: process.env.VITE_DB_USERNAME,
+  password: process.env.VITE_DB_PASSWORD
 }
 
 const connection = connect(config)
